@@ -1,10 +1,13 @@
 {
-  "name": "english-couse-landpage",
+  "homepage": "https://marcelo-zuza.github.io/manchester-idiomas/",
+  "name": "manchester-idiomas",
   "version": "1.0.0",
   "description": "",
   "main": "./js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Marcelo Zuza",
   "license": "ISC",
