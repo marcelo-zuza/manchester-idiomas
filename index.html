@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Manchester Idiomas</title>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Barra de navegação 
+    <nav class="bg-blue-500 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-2xl font-semibold">Sua Marca</a>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-white">Início</a></li>
+                <li><a href="#" class="text-white">Recursos</a></li>
+                <li><a href="#" class="text-white">Contato</a></li>
+            </ul>
+        </div>
+    </nav> -->
+
+    <!-- Seção de Destaque -->
+    <section class="bg-blue-600 text-white">
+        <div class="relative">
+            <img class="sm:block md:hidden opacity-75 z-0" src="./src/img/woman-speaking.jpg" alt="woman-talking">
+            <img class="hidden md:block opacity-75 z-0" src="./src/img/woman-talking-cut.jpg" alt="woman-talking">
+
+            <div class="mx-auto py-4 px-4 md:px-16 absolute top-4 md:top-52 transform text-left">
+                <h1 class="text-3xl md:text-9xl font-semibold">Manchester</h1>
+                <h1 class="text-3xl md:text-9xl font-semibold">Idiomas</h1>
+
+                <p class="hidden md:block md:text-3xl mt-4">Falar inglês é mais simple do que se pensa</p>
+                <div class="sm:block md:hidden py-4 px-4">
+                    <p class="">Falar inglês é</p>
+                    <p class="px-3">mais simples</p>
+                    <p class="px-5">do que você</p>
+                    <p class="px-7">pensa</p>
+
+                </div>
+                
+                <a href="#" class="-mt-1 ml-8 md:ml-0 md:mt-8 inline-block bg-white text-blue-600 text-sm md:text-xl px-4 py-2 md:px-8 md:py-5 rounded-full font-semibold duration-700 hover:bg-blue-200">Conheça mais</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Seção de Recursos -->
+    <section class="bg-white py-20 px-10">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-3xl font-semibold text-center">Atinja patamares inimagináveis</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg">
+                    <img class="w-20 md:w-48" src="./src/img/icons/book.png"alt="">
+                    <h3 class="py-4 text-xl md:py-6 md:text-3xl font-semibold text-center">Material didático de qualidade</h3>
+                    <p class="text-gray-600 mt-2 md:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aspernatur earum harum corrupti suscipit commodi, modi quia praesentium officia consequatur consectetur distinctio ad assumenda sit, deserunt possimus. Ipsa, omnis aperiam!</p>
+                </div>
+                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg">
+                    <img class="w-20 md:w-48" src="./src/img/icons/graduated.png"alt="">
+                    <h3 class="py-4 text-xl md:py-6 md:text-3xl font-semibold text-center">Material didático de qualidade</h3>
+                    <p class="text-gray-600 mt-2 md:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aspernatur earum harum corrupti suscipit commodi, modi quia praesentium officia consequatur consectetur distinctio ad assumenda sit, deserunt possimus. Ipsa, omnis aperiam!</p>
+                </div>
+                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg">
+                    <img class="w-20 md:w-48" src="./src/img/icons/business.png"alt="">
+                    <h3 class="py-4 text-xl md:py-6 md:text-3xl font-semibold text-center">Material didático de qualidade</h3>
+                    <p class="text-gray-600 mt-2 md:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aspernatur earum harum corrupti suscipit commodi, modi quia praesentium officia consequatur consectetur distinctio ad assumenda sit, deserunt possimus. Ipsa, omnis aperiam!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section class="bg-gray-200 py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-center">Entre em Contato Conosco</h2>
+            <div class="flex justify-center mt-8">
+                <div class="w-full max-w-md">
+                    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="nome">
+                                Nome
+                            </label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nome" type="text" placeholder="Seu Nome">
+                        </div>
+                        <div class="mb-4">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                                Email
+                            </label>
+                            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="Seu Email">
+                        </div>
+                        <div class="mb-6">
+                            <label class="block text-gray-700 text-sm font-bold mb-2" for="mensagem">
+                                Mensagem
+                            </label>
+                            <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="mensagem" placeholder="Sua Mensagem"></textarea>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-blue-500 py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-white">© 2023 Manchester Idiomas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</body>
+</html>
