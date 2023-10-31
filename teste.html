@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #counter {
+      font-size: 36px;
+    }
+  </style>
+</head>
+<body>
+  <div class="counter" data-count="563">0</div>
+  <div class="counter" data-count="23">0</div>
+  <div class="counter" data-count="65">0</div>
+  
+
+
+  <script>
+    $(document).ready(function() {
+        $('.counter').each(function() {
+            var $this = $(this);
+            var countTo = $this.attr('data-count');
+    
+            $({ countNum: $this.text() }).animate({
+                countNum: countTo
+            }, {
+                duration: 2000,  // Ajuste a duração da animação conforme necessário
+                easing: 'linear',
+                step: function() {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                    $this.text(countTo);
+                }
+            });
+        });
+    });
+    </script>
+    
+</body>
+</html>

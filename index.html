@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="src/css/style.css">
     <title>Manchester Idiomas</title>
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="font-sans">
     <!-- Barra de navegação 
     <nav class="bg-blue-500 py-4">
         <div class="container mx-auto flex justify-between items-center">
@@ -22,52 +22,192 @@
     <!-- Seção de Destaque -->
     <section class="bg-blue-600 text-white">
         <div class="relative">
-            <img class="sm:block md:hidden opacity-75 z-0" src="./src/img/woman-speaking.jpg" alt="woman-talking">
-            <img class="hidden md:block opacity-75 z-0" src="./src/img/woman-talking-cut.jpg" alt="woman-talking">
-
-            <div class="mx-auto py-4 px-4 md:px-16 absolute top-4 md:top-52 transform text-left">
-                <h1 class="text-3xl md:text-9xl font-semibold">Manchester</h1>
-                <h1 class="text-3xl md:text-9xl font-semibold">Idiomas</h1>
-
-                <p class="hidden md:block md:text-3xl mt-4">Falar inglês é mais simple do que se pensa</p>
-                <div class="sm:block md:hidden py-4 px-4">
-                    <p class="">Falar inglês é</p>
-                    <p class="px-3">mais simples</p>
-                    <p class="px-5">do que você</p>
-                    <p class="px-7">pensa</p>
-
+            <img class="sm:block md:hidden opacity-75 z-0 fade-in-element third-element" src="./src/img/woman-talking-cut3.jpg" alt="woman-talking">
+            <img class="hidden md:block opacity-75 z-0 fade-in-element third-element" src="./src/img/woman-talking-cut.jpg" alt="woman-talking">
+            <div class="x-auto py-4 px-4 md:px-16 absolute top-4 md:top-52 transform text-left">
+                <h1 class="text-4xl md:text-8xl font-semibold">Manchester</h1>
+                <h1 class="text-4xl md:text-8xl font-semibold">Idiomas</h1>
+                <p class="hidden md:block md:text-2xl mt-4 font-bold">Falar inglês é mais simples do que se pensa</p>
+                <div class="sm:block md:hidden py-4 px-4 font-bold">
+                    <p class=" text-xl">Falar inglês é</p>
+                    <p class="px-3 text-xl">mais simples</p>
+                    <p class="px-5 text-xl">do que você</p>
+                    <p class="px-7 text-xl">pensa</p>
                 </div>
-                
-                <a href="/contact.html" class="-mt-1 ml-8 md:ml-0 md:mt-8 inline-block bg-white text-blue-600 text-sm md:text-xl px-4 py-2 md:px-8 md:py-5 rounded-full font-semibold duration-700 hover:bg-blue-200">Conheça mais</a>
+                <a href="#about" class="-mt-1 ml-8 md:ml-0 md:mt-8 inline-block bg-white text-blue-600 text-base md:text-xl px-4 py-2 md:px-8 md:py-5 rounded-full font-semibold duration-700 hover:bg-blue-200">Conheça mais</a>
             </div>
+        </div>
+    </section>
+
+<!--WhatsApp ICON-->
+    <div class="fixed bottom-4 right-4 z-10">
+        <img class="h-10 md:h-16 hover:h-24 duration-700" src="./src/img/icons/whatsapp.png" alt="">
+    </div>
+  
+
+
+
+
+
+    <!--rodape do NUMÉRICO-->
+    <div class="md:hidden bg-white py-6"></div>
+    <section class="bg-orange-300 px-10 py-8 md:py-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 md:place-items-center md:text-2xl">
+            <div class="col-span-1">
+                <p><span class="text-black text-3xl md:text-4xl font-extrabold px-2 contador" data-count="963">0</span> alunos satisfeitos</p>
+            </div>
+            <div class="col-span-1">
+                <p><span class="text-black text-3xl md:text-4xl font-extrabold px-2 contador" data-count="642">0</span>bem empregados</p>
+            </div>
+            <div class="col-span-1">
+                <p><span class="text-black text-3xl md:text-4xl font-extrabold px-2 contador" data-count="236">0</span>alunos satisfeitos</p>
+            </div>
+            <div class="col-span-1">
+                <p><span class="text-black text-3xl md:text-4xl font-extrabold px-2 contador" data-count="645">0</span>Em grandes empresas</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Sessão about-->
+    <section class="bg-white grid grid-cols-1 md:grid-cols-2 md:px-36 py-32" id="about">
+        <div class="col-span-1 relative justify-center pr-4 md:-ml-16 fade-in-element first-element">
+            <img src="./src/img/about-1.jpg" alt="Imagem 1" class="h-3/5 md:h-80">
+            <img src="./src/img/about-2.jpg" alt="Imagem 2" class="absolute top-20 left-20 md:top-48 md:left-48 h-3/5 md:h-80 z-10">        </div>
+        <div class="col-span-1 px-6 md:px-0 fade-in-element second-element">
+            <p class="md:text-3xl text-orange-300 font-extrabold">Sobre nós</p>
+            <p class="text-3xl font-bold md:text-4xl pr-8">Uma escola de inglês como você nunca viu</p>
+            <p class="md:text-xl py-4">A <span class="font-bold text-orange-300">Manchester Idiomas</span> destaca-se como um pioneiro na educação <span class="font-bold text-orange-300">Remota</span> linguística graças ao seu método inovador de ensino. A instituição tem como objetivo tornar o aprendizado do inglês uma experiência envolvente, eficaz e acessível para todos os seus alunos. Manchester Idiomas está na vanguarda do ensino de inglês, ajudando seus alunos a alcançar fluência de maneira eficaz e prazerosa. Se você procura uma abordagem inovadora e eficiente para aprender inglês, esta escola é a escolha ideal para atingir seus objetivos linguísticos.</p>
+            <a href="#details" class="md:ml-0 md:mt-8 inline-block bg-blue-300 text-white text-base md:text-xl px-4 py-2 md:px-8 md:py-5 rounded-full font-semibold duration-700 hover:bg-white hover:text-blue-300">Mais detalhes</a>        
         </div>
     </section>
 
 
 
     <!-- Seção de Recursos -->
-    <section class="bg-white py-20 px-10">
-        <div class="container mx-auto">
-            <h2 class="text-2xl md:text-3xl font-semibold text-center">Conheça nossos diferenciais</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8" id="block1">
-                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg">
+    <section class="bg-white mx-4 md:mx-0 md:my-8 md:py-20 md:px-10" id="details">
+        <div class="container mx-auto ">
+            <h2 class="md:text-3xl text-orange-300 font-extrabold text-center fade-in-element first-element">Conheça</h2>
+            <h2 class="text-3xl md:text-5xl font-semibold text-center fade-in-element first-element">Nossos diferenciais</h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8 ">
+                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg fade-in-element second-element">
                     <img class="w-20 md:w-48" src="./src/img/icons/book.png"alt="">
-                    <h3 class="py-4 text-xl md:py-6 md:text-3xl font-semibold text-center">Material didático de qualidade</h3>
+                    <h3 class="py-4 text-xl md:py-6 md:text-2xl font-semibold text-center">Material didático de qualidade</h3>
                     <p class="text-gray-600 mt-2 md:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aspernatur earum harum corrupti suscipit commodi, modi quia praesentium officia consequatur consectetur distinctio ad assumenda sit, deserunt possimus. Ipsa, omnis aperiam!</p>
                 </div>
-                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg fade-in-element second-element">
                     <img class="w-20 md:w-48" src="./src/img/icons/graduated.png"alt="">
-                    <h3 class="py-4 text-xl md:py-6 md:text-3xl font-semibold text-center">Material didático de qualidade</h3>
+                    <h3 class="py-4 text-xl md:py-6 md:text-2xl font-semibold text-center">Material didático de qualidade</h3>
                     <p class="text-gray-600 mt-2 md:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aspernatur earum harum corrupti suscipit commodi, modi quia praesentium officia consequatur consectetur distinctio ad assumenda sit, deserunt possimus. Ipsa, omnis aperiam!</p>
                 </div>
-                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg">
+                <div class="grid grid-cols-1 place-items-center bg-blue-100 hover:bg-blue-200 duration-500 p-8 rounded-lg shadow-lg fade-in-element second-element">
                     <img class="w-20 md:w-48" src="./src/img/icons/business.png"alt="">
-                    <h3 class="py-4 text-xl md:py-6 md:text-3xl font-semibold text-center">Material didático de qualidade</h3>
+                    <h3 class="py-4 text-xl md:py-6 md:text-2xl font-semibold text-center">Material didático de qualidade</h3>
                     <p class="text-gray-600 mt-2 md:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aspernatur earum harum corrupti suscipit commodi, modi quia praesentium officia consequatur consectetur distinctio ad assumenda sit, deserunt possimus. Ipsa, omnis aperiam!</p>
                 </div>
             </div>
         </div>
     </section>
+
+
+<!--DEPOIMENTOS-->
+<section class="bg-white mx-4 py-30 md:mx-0 md:my-8 md:py-20 md:px-10">
+    <div class="container mx-auto">
+        <h2 class="md:text-3xl text-orange-300 font-extrabold text-center fade-in-element first-element">Veja</h2>
+        <h2 class="text-3xl md:text-5xl font-semibold text-center fade-in-element first-element">O que dizem nossos ex-alunos</h2>            
+            <div class="grid grid-cols-1 md:grid-cols-4 place-items-center mt-8 gap-4 fade-in-element second-element">
+                
+                <!--Depoimento individual-->
+                <div class="col-span-1 bg-orange-300 p-6 h-full rounded-xl">
+                    <div class="grid grid-cols-3 py-2">
+                        <div class="col-span-1">
+                            <img src="./src/img/testimonial-1.jpg" alt="">
+                        </div>
+                        <div class="col-span-2">
+                            <p class="text-2xl md:text-3xl font-bold">Carlos Cunha</p>
+                            <p class="text-xl md:text-xl">Massagista</p>
+                            <div class="flex py-2">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-base">O que eu aprendi em 1 ano dificilmente aprenderia com outro método!</p>
+                </div>
+
+                <!--Depoimento individual-->
+                <div class="col-span-1 bg-orange-300 p-6 h-full rounded-xl">
+                    <div class="grid grid-cols-3 py-2">
+                        <div class="col-span-1">
+                            <img src="./src/img/testimonial-2.jpg" alt="">
+                        </div>
+                        <div class="col-span-2">
+                            <p class="text-2xl md:text-3xl font-bold">Genivaldo Tokoyoko</p>
+                            <p class="text-xl md:text-xl">Agente Funerário</p>
+                            <div class="flex py-2">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-base">Novas portas se abriram para mim desde que finalizei o curso!</p>
+                </div>
+
+                <!--Depoimento individual-->
+                <div class="col-span-1 bg-orange-300 p-6 h-full rounded-xl">
+                    <div class="grid grid-cols-3 py-2">
+                        <div class="col-span-1">
+                            <img src="./src/img/testimonial-3.jpg" alt="">
+                        </div>
+                        <div class="col-span-2">
+                            <p class="text-xl md:text-3xl font-bold">Maria da Graça</p>
+                            <p class="text-xl md:text-xl">Designer</p>
+                            <div class="flex py-2">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-base">O Domínio do Inglês me permitiu aumentar o número de clientes</p>
+                </div>
+
+                <!--Depoimento individual-->
+                <div class="col-span-1 bg-orange-300 p-6 h-full rounded-xl">
+                    <div class="grid grid-cols-3 py-2">
+                        <div class="col-span-1">
+                            <img src="./src/img/testimonial-4.jpg" alt="">
+                        </div>
+                        <div class="col-span-2">
+                            <p class="text-2xl md:text-3xl font-bold">Janaína Peixoto</p>
+                            <p class="text-xl md:text-xl">Dentista</p>
+                            <div class="flex py-2">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                                <img class="w-7" src="./src/img/icons/star.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-base">Me me sinto confortável para atender clientes em inglês</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- Seção de Contato -->
     <section class="bg-gray-200 py-16">
@@ -108,9 +248,12 @@
     <!-- Rodapé -->
     <footer class="bg-blue-500 py-6">
         <div class="container mx-auto text-center">
-            <p class="text-white">© 2023 Manchester Idiomas. Todos os direitos reservados.</p>
+            <p class="text-white md:text-2xl"><span class="font-bold">© 2023 Manchester Idiomas.</span> Todos os direitos reservados.</p>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="./src/js/script.js"></script>
 </body>
 </html>
