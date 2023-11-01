@@ -55,7 +55,6 @@ $(document).ready(function() {
     delay: 0,  
 });
 });
-
 //  fade-in-element first-element
 //  fade-in-element second-element
 //  fade-in-element third-element
